@@ -1,0 +1,27 @@
+{
+  "device": {
+    "wavelength_nm": 525.0,
+    "external_quantum_efficiency": 0.70,
+    "active_area_mm2": 1.0,
+    "dark_current_a": 1e-10,
+    "piezo_voltage_per_strain_v": 8.0,
+    "pyro_voltage_per_k_v": 0.015,
+    "coupling_strength_per_v": 1.5,
+    "max_coupling_exponent": 1.25,
+    "pyroelectric_coefficient_c_m2k": 1e-5,
+    "thermal_rise_k_at_reference_power": 1.5,
+    "reference_power_density_mw_cm2": 1.0,
+    "thermal_time_constant_s": 0.25
+  },
+  "operating_point": {
+    "power_density_mw_cm2": 1.0,
+    "strain": 0.005,
+    "temperature_rise_k": 0.0
+  },
+  "transient": {
+    "duration_s": 5.0,
+    "dt_s": 0.002,
+    "modulation_hz": 1.0,
+    "duty_cycle": 0.5
+  }
+}
