@@ -1,0 +1,10 @@
+{
+  "filter_alpha": 0.25,
+  "light_current_threshold_a": 1e-6,
+  "strain_alert_threshold": 0.008,
+  "thermal_rate_alert_k_s": 3.0,
+  "heartbeat_stride": 25,
+  "packet_loss_probability": 0.02,
+  "communication_latency_ms": 20.0,
+  "random_seed": 7
+}

@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "flexpd"
-version = "0.1.0"
-description = "Reduced-order simulation framework for coupled piezo-pyro self-powered flexible photodetectors"
+version = "0.2.0"
+description = "Cyber-physical simulation framework for coupled piezo-pyro self-powered flexible photodetectors"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

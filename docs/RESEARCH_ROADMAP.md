@@ -40,12 +40,35 @@
 
 Explore layer thickness, ZnO morphology/orientation, perovskite composition, interfaces, electrodes, active area, encapsulation, and mechanical neutral-axis design. Multi-objective optimization should consider responsivity, noise, speed, flexibility, stability, and fabrication yield rather than maximizing one headline metric.
 
-## Phase 6 — Application demonstrators
+## Phase 6 — Cyber-physical integration
+
+- Build the detector/readout/ADC interface and define a timestamped sensor data model.
+- Calibrate edge filtering and state-estimation thresholds from measured noise and operating envelopes.
+- Compare periodic versus event-triggered communication.
+- Quantify end-to-end latency from physical stimulus to cyber decision.
+- Inject packet loss, sensor drift, missing samples, and communication outages.
+- Propagate detector uncertainty into decision confidence.
+
+**Exit criterion:** reproducible closed-loop sensing-to-decision behavior under documented physical and network disturbances.
+
+## Phase 7 — Hardware-in-the-loop and resilience
+
+- Replace simulated detector streams with real-time measurements.
+- Keep the same CPS interfaces so simulation and hardware runs are directly comparable.
+- Add actuator or adaptive sensing behavior.
+- Evaluate fault detection and safe degraded modes.
+- Add security experiments such as replay/spoofing only with explicit threat models and measurable defenses.
+
+**Exit criterion:** a hardware-in-the-loop CPS demonstrator with traceable physical, computation, communication, and response metrics.
+
+## Phase 8 — Application demonstrators
 
 Candidate demonstrations:
 
-- wearable optical pulse/PPG-style sensing;
-- battery-free event/light sensing for IoT nodes;
-- flexible optical touch/gesture or human–machine interaction interface.
+- wearable optical pulse/PPG-style sensing with motion/thermal context;
+- battery-free or energy-aware event/light sensing for IoT nodes;
+- flexible optical touch/gesture or human–machine interaction interface;
+- environmental exposure node with adaptive communication;
+- safety-aware flexible sensor that triggers protective or warning actions.
 
-Application claims should be based on system-level tests under realistic motion, lighting, temperature, and aging conditions.
+Application claims should be based on system-level tests under realistic motion, lighting, temperature, network, power, and aging conditions.
