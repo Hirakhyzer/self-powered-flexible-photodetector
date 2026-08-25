@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite the repository and the specific commit or release used."
+title: "Self-Powered Flexible Photodetectors Enabled by Coupled Piezo-Pyro Effects"
+type: software
+authors:
+  - name: "Hira Khyzer"
+repository-code: "https://github.com/Hirakhyzer/self-powered-flexible-photodetector"
+abstract: "Research and simulation framework for self-powered flexible ZnO/perovskite/ZnO photodetectors and their cyber-physical integration using coupled piezoelectric and pyroelectric effects."
+keywords:
+  - photodetector
+  - cyber-physical systems
+  - digital sensing
+  - piezoelectricity
+  - pyroelectricity
+  - flexible electronics
